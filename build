@@ -1,3 +1,2 @@
 #!/bin/bash
-
 docker build -t nginx_container:v1 .;docker run -d -p 8080:80 nginx_container:v1 && curl http://localhost:8080
